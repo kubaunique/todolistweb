@@ -1,0 +1,217 @@
+/* Reset some default styles */
+body, h1, h2, ul, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #333;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.task-form {
+    margin-bottom: 20px;
+}
+
+.task-form h2,
+.task-list h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.task-form form {
+    display: flex;
+    gap: 10px;
+}
+
+.task-form input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.task-form button[type="submit"] {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.task-list ul {
+    list-style: none;
+}
+
+.task-list li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Reset default margin and padding */
+body,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+/* Main content styles */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* Task form styles */
+.task-form {
+    margin-bottom: 20px;
+}
+
+.task-form h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#taskInput {
+    width: calc(100% - 80px);
+    padding: 8px;
+    margin-right: 10px;
+}
+
+#taskInput:focus {
+    outline: none;
+}
+
+#taskForm button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Task list styles */
+.task-list h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#taskList {
+    list-style: none;
+    padding: 0;
+}
+
+#taskList li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+}
+
+#taskList li:last-child {
+    border-bottom: none;
+}
+
+/* Delete and Edit button styles */
+button {
+    
+    padding: 5px 10px;
+    margin-left: 5px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* Existing CSS styles */
+
+/* Media query for smaller devices */
+@media (max-width: 600px) {
+    /* Adjustments for smaller screens */
+
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    #taskInput {
+        width: calc(100% - 60px);
+    }
+}
+
+/* Media query for larger devices */
+@media (min-width: 1024px) {
+    /* Adjustments for larger screens */
+
+    main {
+        max-width: 960px;
+    }
+
+    #taskInput {
+        width: calc(100% - 100px);
+    }
+}
+
